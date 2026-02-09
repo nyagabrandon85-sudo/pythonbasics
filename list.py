@@ -28,5 +28,4 @@ students.insert(1,"Lewis")
 print(students)
 #looping through list
 for x in students:
-    print(x)
-,+
+ print(x)
