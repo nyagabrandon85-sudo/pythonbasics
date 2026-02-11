@@ -15,4 +15,10 @@ try:
 except NameError:
     print("The variable is not defined")
 
+try:
+    with open("abcd.txt","r") as x:
+            print(x.read())
+except FileNotFoundError:
+  print("file not found")
+
 
