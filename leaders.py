@@ -8,4 +8,11 @@ class Leader:
         return f'{self.first_name} {self.last_name} form {self.form}: {self.rank}'
     def fullname(self):
         return f'{self.first_name} {self.last_name}'
-leader1=Leader
+leader1=Leader("Nathan ","Mwinzi","4N","Laboratories Captain")
+leader2=Leader("Vincent ","Mwaura","4N","School Captain")
+leader3=Leader("Fidelis","Kisilu","4P","Games Captain")
+leader4=Leader("Richel","Mwangi","4J","Boarding Captain")
+print(leader1)
+print(leader2)
+print(leader3)
+print(leader4)
